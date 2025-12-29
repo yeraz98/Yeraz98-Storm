@@ -2,19 +2,15 @@
 
 Bu araç **yeraz98** tərəfindən hazırlanmış güclü bir şəbəkə alətidir.
 
-## 📥 İlk Dəfə Qurulum (Tam Avtomatik)
+## 🔄 İşə Salmaq Üçün
+Termux-da bu əmri yazın (HƏDƏF yerinə test edəcəyiniz saytı və ya IP-ni yazın):
 
 ```bash
-pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/yeraz98/Yeraz98-Storm && cd Yeraz98-Storm && bash setup.sh && python storm.py
+cd ~/Yeraz98-Storm 2>/dev/null || cd Yeraz98-Storm; python storm.py HƏDƏF
 ```
 
-## 🔄 Sonradan İşə Salmaq Üçün
-
-Əgər proqram artıq qurulubsa, Termux-a yenidən girdiyinizdə sadəcə bu əmrləri yazın:
-
-```bash
-cd Yeraz98-Storm && python storm.py
-```
+**Nümunə:**
+`python storm.py google.com`
 
 ---
 👤 **Developer:** [yeraz98](https://github.com/yeraz98)
